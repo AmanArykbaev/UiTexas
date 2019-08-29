@@ -1,0 +1,8 @@
+com/uitest/runners/TestRunner.class
+com/uitest/utils/CommonMethods.class
+com/uitest/utils/ConfigsReader.class
+com/uitest/utils/BaseClass.class
+com/uitest/steps/Hooks.class
+com/uitest/steps/TestSteps.class
+com/uitest/utils/Constants.class
+com/uitest/pages/TestPage.class

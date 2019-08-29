@@ -1,0 +1,161 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-28T00:31:48.642Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2078388668,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Valid login",
+        "description": "",
+        "id": "login;valid-login",
+        "after": [
+          {
+            "result": {
+              "duration": 91108779,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 295971019,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter valid username and password",
+            "match": {
+              "location": "TestSteps.i_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 345500199,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click login button",
+            "match": {
+              "location": "TestSteps.i_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59307751,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I successfully loged in",
+            "match": {
+              "location": "TestSteps.i_successfully_loged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@texas"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-08-28T00:31:51.517Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1362699192,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Invalid Login",
+        "description": "",
+        "id": "login;invalid-login",
+        "after": [
+          {
+            "result": {
+              "duration": 79965706,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 258262435,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I entered invalid username and password",
+            "match": {
+              "location": "TestSteps.i_entered_invalid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65265933,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click login button",
+            "match": {
+              "location": "TestSteps.i_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32192165,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I see error message is dispalyed",
+            "match": {
+              "location": "TestSteps.i_see_error_message_is_dispalyed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@texas"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
